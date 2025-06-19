@@ -48,7 +48,7 @@ A modern, sleek typing test application inspired by MonkeyType. Test your typing
 ![Main Interface](/img/main.png)
 
 ### Results Modal
-![Main Interface](/img/result.png.png)
+![Main Interface](/img/result.png)
 
 </div>
 ## 🛠️ Technologies Used
