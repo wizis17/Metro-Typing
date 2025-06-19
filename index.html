@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeTroType - Typing Test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main-content" id="mainContent">
+            <h1 class="title">MeTro Type</h1>
+            
+            <div class="config">
+                <div class="config-group">
+                    <button class="config-btn active" data-time="15">15s</button>
+                    <button class="config-btn" data-time="30">30s</button>
+                    <button class="config-btn" data-time="60">60s</button>
+                    <button class="config-btn" data-time="120">120s</button>
+                </div>
+                <div class="config-group">
+                    <button class="config-btn active" data-words="25">25</button>
+                    <button class="config-btn" data-words="50">50</button>
+                    <button class="config-btn" data-words="100">100</button>
+                </div>
+            </div>
+
+            <div class="stats-top">
+                <div class="stat">
+                    <div class="stat-label">WPM</div>
+                    <div class="stat-value" id="wpm">0</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-label">Accuracy</div>
+                    <div class="stat-value" id="accuracy">100%</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-label">Time</div>
+                    <div class="stat-value" id="timer">60</div>
+                </div>
+            </div>
+
+            <div class="word-display" id="wordDisplay">
+                <!-- Words will be generated here -->
+            </div>
+
+            <input type="text" class="input-area" id="textInput" autocomplete="off" autocorrect="off" autocapitalize="off">
+            
+            <button class="restart-btn" id="restartBtn">Restart Test</button>
+        </div>
+
+        <div class="result" id="result">
+            <div class="results-content">
+                <h2>Test Complete! 😁😎</h2>
+                <div class="results-grid">
+                    <div class="result-item">
+                        <div class="result-label">WPM</div>
+                        <div class="result-value" id="finalWPM">0</div>
+                    </div>
+                    <div class="result-item">
+                        <div class="result-label">Accuracy</div>
+                        <div class="result-value" id="finalAccuracy">100%</div>
+                    </div>
+                    <div class="result-item">
+                        <div class="result-label">Characters</div>
+                        <div class="result-value" id="finalChars">0/0</div>
+                    </div>
+                    <div class="result-item">
+                        <div class="result-label">Time</div>
+                        <div class="result-value" id="finalTime">0s</div>
+                    </div>
+                </div>
+                <button class="restart-btn" id="restartFromResults">Try Again</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
