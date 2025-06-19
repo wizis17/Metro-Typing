@@ -39,50 +39,18 @@ A modern, sleek typing test application inspired by MonkeyType. Test your typing
 
 ## 🚀 Live Demo
 
-**Try it now:** [https://wizis17.github.io/REPOSITORY-NAME/](https://wizis17.github.io/REPOSITORY-NAME/)
+**Try it now:** [https://wizis17.github.io/Metro-Typing/](https://wizis17.github.io/Metro-Typing/)
 
 ## 📱 Screenshots
+<div align="center">
 
 ### Main Interface
-```
-┌─────────────────────────────────────┐
-│           MeTro Type                │
-│                                     │
-│  [15s] [30s] [60s] [120s]          │
-│  [25] [50] [100]                   │
-│                                     │
-│  WPM: 0    Accuracy: 100%   Time: 60│
-│                                     │
-│ ┌─────────────────────────────────┐ │
-│ │ [sunny] typing focus with lazy  │ │
-│ │ runs dog attention and dog      │ │
-│ │ attention dog improve improve   │ │
-│ │ improve flow through typing     │ │
-│ └─────────────────────────────────┘ │
-│                                     │
-│         [Restart Test]              │
-└─────────────────────────────────────┘
-```
+![Main Interface](/img/main.png)
 
 ### Results Modal
-```
-┌─────────────────────────────────────┐
-│        Test Complete! 😁😎          │
-│                                     │
-│ ┌─────┐ ┌─────────┐ ┌─────────────┐ │
-│ │ WPM │ │Accuracy │ │ Characters  │ │
-│ │ 85  │ │  97%    │ │   142/146   │ │
-│ └─────┘ └─────────┘ └─────────────┘ │
-│                                     │
-│        ┌──────┐                     │
-│        │ Time │                     │
-│        │ 60s  │                     │
-│        └──────┘                     │
-│                                     │
-│          [Try Again]                │
-└─────────────────────────────────────┘
-```
+![Main Interface](/img/result.png.png)
 
+</div>
 ## 🛠️ Technologies Used
 
 - **HTML5** - Semantic structure
@@ -118,12 +86,12 @@ Just visit the live demo link above and start typing!
 ### Option 2: Run Locally
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/wizis17/REPOSITORY-NAME.git
+   git clone https://github.com/wizis17/Metro-typing.git
    ```
 
 2. **Open in browser**
    ```bash
-   cd REPOSITORY-NAME
+   cd Metro-Typing
    open index.html
    ```
 
