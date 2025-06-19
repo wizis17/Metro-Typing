@@ -41,7 +41,6 @@ A modern, sleek typing test application inspired by MonkeyType. Test your typing
 
 **Try it now:** [https://wizis17.github.io/Metro-Typing/](https://wizis17.github.io/Metro-Typing/)
 
-## 📱 Screenshots
 <div align="center">
 
 ### Main Interface
